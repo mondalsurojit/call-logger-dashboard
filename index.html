@@ -146,23 +146,27 @@
                     <input type="text" id="searchCallLogs" placeholder="Search Call Logs..."
                         class="w-full p-2 border rounded-md">
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-md overflow-auto" style="max-height: 400px;">
-                    <table class="min-w-full">
-                        <thead>
-                            <tr>
-                                <th class="text-left p-2"><i class="fas fa-calendar-day mr-2"></i>Date</th>
-                                <th class="text-left p-2"><i class="fas fa-user mr-2"></i>Employee</th>
-                                <th class="text-left p-2"><i class="fas fa-phone mr-2"></i>Type</th>
-                                <th class="text-left p-2"><i class="fas fa-hourglass-half mr-2"></i>Duration</th>
-                                <th class="text-left p-2"><i class="fas fa-play-circle mr-2"></i>Playback</th>
-                            </tr>
-                        </thead>
-                        <tbody id="callLogTable">
-                            <!-- Rows will be populated by JavaScript -->
-                        </tbody>
-                    </table>
+
+                <div class="bg-white rounded-lg shadow-md">
+                    <!-- Fixed Grid Header -->
+                    <div class="grid grid-cols-5 gap-4 font-bold p-2 border-b bg-gray-50 sticky top-0 z-10">
+                        <div><i class="fas fa-calendar-day mr-2"></i>Date</div>
+                        <div><i class="fas fa-user mr-2"></i>Employee</div>
+                        <div><i class="fas fa-phone mr-2"></i>Type</div>
+                        <div><i class="fas fa-hourglass-half mr-2"></i>Duration</div>
+                        <div><i class="fas fa-play-circle mr-2"></i>Playback</div>
+                    </div>
+
+                    <!-- Scrollable data rows -->
+                    <div class="overflow-auto" style="max-height: 400px;">
+                        <div id="callLogTable" class="grid gap-4">
+                            <!-- Add more rows dynamically -->
+                        </div>
+                    </div>
                 </div>
             </section>
+
+
 
             <!-- User Management -->
             <section id="user-management">
@@ -195,7 +199,7 @@
     </div>
 
     <script src="data/dummyData.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/index.js"></script>
     <script src="js/dashboard.js"></script>
     <script src="js/callLog.js"></script>
     <script>

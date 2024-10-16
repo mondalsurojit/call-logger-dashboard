@@ -3,13 +3,13 @@
 // Dummy data for Call Logs
 const callLogs = [
     { date: '2024-10-10', employee: 'John Doe', type: 'Incoming', duration: '10 mins', recording: 'audio1.mp3' },
-    { date: '2024-10-11', employee: 'Jane Smith', type: 'Outgoing', duration: '8 mins', recording: 'audio2.mp3' },
-    { date: '2024-10-12', employee: 'Sam Wilson', type: 'Incoming', duration: '15 mins', recording: 'audio3.mp3' },
-    { date: '2024-10-13', employee: 'Chris Evans', type: 'Outgoing', duration: '5 mins', recording: 'audio4.mp3' },
+    { date: '2024-10-11', employee: 'Jane Smith', type: 'Outgoing', duration: '8 mins', recording: 'audio1.mp3' },
+    { date: '2024-10-12', employee: 'Sam Wilson', type: 'Incoming', duration: '15 mins', recording: 'audio1.mp3' },
+    { date: '2024-10-13', employee: 'Chris Evans', type: 'Outgoing', duration: '5 mins', recording: 'audio1.mp3' },
     { date: '2024-10-10', employee: 'John Doe', type: 'Incoming', duration: '10 mins', recording: 'audio1.mp3' },
-    { date: '2024-10-11', employee: 'Jane Smith', type: 'Outgoing', duration: '8 mins', recording: 'audio2.mp3' },
-    { date: '2024-10-12', employee: 'Sam Wilson', type: 'Incoming', duration: '15 mins', recording: 'audio3.mp3' },
-    { date: '2024-10-13', employee: 'Chris Evans', type: 'Outgoing', duration: '5 mins', recording: 'audio4.mp3' },
+    { date: '2024-10-11', employee: 'Jane Smith', type: 'Outgoing', duration: '8 mins', recording: 'audio1.mp3' },
+    { date: '2024-10-12', employee: 'Sam Wilson', type: 'Incoming', duration: '15 mins', recording: 'audio1.mp3' },
+    { date: '2024-10-13', employee: 'Chris Evans', type: 'Outgoing', duration: '5 mins', recording: 'audio1.mp3' },
 ];
 
 // Random data generation for charts
